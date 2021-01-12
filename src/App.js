@@ -1,6 +1,12 @@
 import React from 'react';
+import styled from 'styled-components';
 import logo from './logo.svg';
 import './App.css';
+
+const Button = styled.button`
+  border: 2px solid black;
+  padding: 50px;
+`;
 
 function App() {
   return (
@@ -10,6 +16,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Button>This is my button</Button>
         <a
           className="App-link"
           href="https://reactjs.org"
