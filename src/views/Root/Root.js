@@ -1,13 +1,16 @@
 import React from 'react';
-import styled from 'styled-components';
-
-const Button = styled.button`
-  border: 2px solid black;
-  padding: 50px;
-`;
+import Button from 'components/Button/Button';
+import GlobalStyle from 'theme/GlobalStyle';
 
 function App() {
-  return <Button>This is my button</Button>;
+  return (
+    <div>
+      <GlobalStyle />
+      <h1>Hello</h1>
+      <Button>Close / Save</Button>
+      <Button secondary>remove</Button>
+    </div>
+  );
 }
 
 export default App;
