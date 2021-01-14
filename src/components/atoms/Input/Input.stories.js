@@ -6,4 +6,5 @@ export default {
   component: Input,
 };
 
-export const Primary = () => <Input placeholder="Hello" />;
+export const Normal = () => <Input placeholder="Hello" />;
+export const Search = () => <Input search placeholder="search" />;
