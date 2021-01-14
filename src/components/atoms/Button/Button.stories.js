@@ -11,10 +11,11 @@ export default {
 
 export const Primary = () => {
   const label = 'Colors';
+  const options = theme.colors;
   const defaultValue = 'hsl(49, 100%, 58%)';
   const groupId = 'GROUP-ID1';
 
-  const value = select(label, theme.colors, defaultValue, groupId);
+  const value = select(label, options, defaultValue, groupId);
   return <Button color={value}>Close / Save</Button>;
 };
 export const Secondary = () => <Button secondary>remove</Button>;
