@@ -9,9 +9,9 @@ export const theme = {
   black: 'hsl(0, 0%, 0%)',
   fontSize: {
     xs: '0.8rem',
-    s: '1.4rem',
-    m: '1.6rem',
-    l: '1.8rem',
+    s: '1rem',
+    m: '1.4rem',
+    l: '1.6rem',
   },
   fontWeight: {
     light: '300',

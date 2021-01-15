@@ -15,7 +15,7 @@ const Button = styled.button`
       background-color: ${({ theme }) => theme.grey100};
       width: 105px;
       height: 30px;
-      font-size: 10px;
+      font-size: ${({ theme }) => theme.fontSize.xs};
     `}
 `;
 
